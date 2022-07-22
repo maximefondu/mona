@@ -1,0 +1,19 @@
+/*
+ * Auto import fonts
+ * font-family | file name | font-weight | font-style
+*/
+
+$fonts: (
+    "Mark pro" "MarkPro" 400 normal
+    "Mark pro" "MarkPro-Bold" 700 normal
+);
+
+@each $family, $name, $weight, $style in $fonts {
+    @font-face {
+        font-family: $family;
+        src: url('./../fonts/#{$name}.woff2') format('woff2'),
+        url('./../fonts/#{$name}.woff') format('woff');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}

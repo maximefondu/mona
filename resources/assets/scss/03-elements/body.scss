@@ -1,0 +1,19 @@
+body, .body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+    @apply
+    font-main
+    font-normal
+    text-sm
+
+    m-0
+    overflow-x-hidden
+    leading-relaxed
+    ;
+
+    &.has-no-scroll {
+        @apply overflow-hidden;
+    }
+}

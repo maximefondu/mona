@@ -1,0 +1,17 @@
+{
+    "white": "white",
+    "black": "black",
+    "transparent": "transparent",
+    "current": "currentColor",
+    "primary": "#FFC123",
+    "success": "#29cc97",
+    "error": "#a91a1a",
+    "yellow": "#fec400",
+    "grey": {
+        "200": "#A4A6B3",
+        "400": "#575B67",
+        "500": "#313745",
+        "600": "#272D39",
+        "800": "#232833"
+    }
+}

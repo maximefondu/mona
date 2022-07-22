@@ -1,0 +1,12 @@
+/*
+ * Grid
+ * Usage:
+ * Use class col on parent and col-span-{1,2,3,4,5,6,7,8,9,10,11,12}
+ * params: gap-#{size} to change size of gutter
+*/
+
+@use "sass:math";
+
+.col {
+    @apply grid grid-cols-12 gap-[#{math.div($grid-default-gutter, 10)}rem];
+}
