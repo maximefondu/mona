@@ -4,3 +4,7 @@
     @apply inline-flex;
     @apply rounded-sm;
 }
+
+.link {
+    @apply transition-colors hover:text-grey-400;
+}
