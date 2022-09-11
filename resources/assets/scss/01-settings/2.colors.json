@@ -3,6 +3,7 @@
     "black": "black",
     "transparent": "transparent",
     "current": "currentColor",
+    "main": "#B4B6BA",
     "primary": "#F05454",
     "success": "#29CC97",
     "yellow": "#FEC400",

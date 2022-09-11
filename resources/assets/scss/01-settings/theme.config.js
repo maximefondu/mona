@@ -13,7 +13,7 @@ module.exports = {
             xl: "20px"
         },
         transitionDuration: {
-            DEFAULT: "400ms"
+            DEFAULT: "300ms"
         },
         keyframes: require("./3.fonts.json")["keyframes"],
         animation: require("./3.fonts.json")["animation"]

@@ -1,0 +1,8 @@
+.form-input {
+    @apply bg-transparent border border-grey-400;
+    @apply flex;
+    @apply px-10 pt-5 pb-6;
+    @apply rounded-sm outline-none transition-colors;
+    @apply placeholder:text-grey-400;
+    @apply focus:border-grey-200;
+}

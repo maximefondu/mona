@@ -1,20 +1,6 @@
 .button {
-    @apply
-    inline-flex
-    px-10
-    py-5
-    bg-primary
-    font-medium
-    rounded
-    leading-tight
-    ;
-
-    &._outline {
-        @apply
-        bg-transparent
-        text-grey-400
-        border
-        border-current
-        ;
-    }
+    @apply bg-primary text-white font-medium leading-tight;
+    @apply pt-4 pb-6 pl-10 pr-10;
+    @apply inline-flex;
+    @apply rounded-sm;
 }

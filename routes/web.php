@@ -13,5 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::resource('/', \App\Http\Controllers\Home\IndexController::class)->only(["index"]);*/
-Route::resource('/customer', \App\Http\Controllers\Customer\IndexController::class)->only(["index", "create"]);
+Route::middleware(["auth"])->group(function () {
+    Route::get('/', function () {
+        return view('pages.home.index');
+    });
+});
+
+require __DIR__ . '/auth.php';
