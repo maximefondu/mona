@@ -1,0 +1,20 @@
+.button {
+    @apply
+    inline-flex
+    px-10
+    py-5
+    bg-primary
+    font-medium
+    rounded
+    leading-tight
+    ;
+
+    &._outline {
+        @apply
+        bg-transparent
+        text-grey-400
+        border
+        border-current
+        ;
+    }
+}

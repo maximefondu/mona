@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @vite(['resources/assets/scss/main.scss'])
+    @vite(['resources/assets/js/main.ts'])
     <title>Mona</title>
 </head>
 <body>
-    <x-header/>
-    <main>
-        {!! $slot !!}
-    </main>
+<x-header/>
+<main>
+    {!! $slot !!}
+</main>
 </body>
 </html>

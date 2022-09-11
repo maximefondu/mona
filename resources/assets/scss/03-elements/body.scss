@@ -6,11 +6,12 @@ body, .body {
     @apply
     font-main
     font-normal
-    text-sm
+    text-base
+    leading-relaxed
 
     m-0
     overflow-x-hidden
-    leading-relaxed
+    bg-grey-800
     ;
 
     &.has-no-scroll {

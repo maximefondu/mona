@@ -6,11 +6,14 @@
         ]
     },
     "font-size": {
+        "xxs": "1rem",
         "xs": "1.2rem",
         "sm": "1.4rem",
-        "md": "1.6rem",
+        "base": "1.6rem",
+        "md": "1.8rem",
         "xl": "2rem",
         "2xl": "2.4rem",
-        "3xl": "3.2rem"
+        "3xl": "3.2rem",
+        "4xl": "4.2rem"
     }
 }
